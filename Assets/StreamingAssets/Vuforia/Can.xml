@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
   <Tracking>
-    <CylinderTarget name="campa" sideLength="0.160000"/>
+    <CylinderTarget name="CampaLemon" sideLength="0.100000"/>
   </Tracking>
 </QCARConfig>

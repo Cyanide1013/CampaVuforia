@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <VuforiaUnityInfo version="7.0">
     <TargetSet version="5.0" toolVersion="2.8.1">
-        <CylinderTarget name="campa" version="3.0" targetId="b5b178e563df4af9b893938f4104cf2c" sideLength="0.160000" topDiameter="0.110000" bottomDiameter="0.110000" sideImage="campa.Body_scaled.jpg"/>
+        <CylinderTarget name="CampaLemon" version="3.0" targetId="9418078357124ab7929116287eb9f814" sideLength="0.100000" topDiameter="0.050000" bottomDiameter="0.050000" sideImage="CampaLemon.Body_scaled.jpg"/>
     </TargetSet>
 </VuforiaUnityInfo>
