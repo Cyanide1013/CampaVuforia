@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig>
-  <Tracking>
-    <CylinderTarget name="CampaLemon" sideLength="0.100000"/>
-  </Tracking>
+    <Tracking>
+        <CylinderTarget name="CampaLemon" sideLength="0.100000"/>
+        <ImageTarget name="darkFantasy.Back" size="0.150000 0.044949"/>
+        <ImageTarget name="darkFantasy.Top" size="0.150000 0.219921"/>
+        <ImageTarget name="darkFantasy.Left" size="0.220000 0.044965"/>
+        <ImageTarget name="darkFantasy.Front" size="0.150000 0.044949"/>
+        <ImageTarget name="darkFantasy.Bottom" size="0.150000 0.219921"/>
+        <ImageTarget name="darkFantasy.Right" size="0.220000 0.044965"/>
+        <MultiTarget name="darkFantasy">
+            <Part name="darkFantasy.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
+            <Part name="darkFantasy.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
+            <Part name="darkFantasy.Front" translation="0 0 0.10999999940395355" rotation="AD: 1 0 0 0"/>
+            <Part name="darkFantasy.Back" translation="0 0 -0.10999999940395355" rotation="AD: 0 1 0 180"/>
+            <Part name="darkFantasy.Top" translation="0 0.02250000089406967 0" rotation="AD: 1 0 0 -90"/>
+            <Part name="darkFantasy.Bottom" translation="0 -0.02250000089406967 0" rotation="AD: 1 0 0 90"/>
+        </MultiTarget>
+    </Tracking>
 </QCARConfig>
