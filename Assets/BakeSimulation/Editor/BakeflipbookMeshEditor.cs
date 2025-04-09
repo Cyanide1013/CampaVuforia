@@ -143,12 +143,21 @@ public class BakeFlipBookMeshEditor : EditorWindow
         }
         
         {
+            // var objToSpawn = new GameObject(gameObject.name + "_BakedMeshArray");
+            
             var objToSpawn = new GameObject(gameObject.name + "_BakedMeshArray");
+            
+            var animator = objToSpawn.AddComponent<ManualFlipBookAnimator>();
+            animator.meshes = bakedMeshes.ToArray();
+            animator.duration = player.Duration; // Or total animation length
             objToSpawn.transform.SetPositionAndRotation(gameObject.transform.position, gameObject.transform.rotation);
+            
 
             objToSpawn.tag = gameObject.tag;
             objToSpawn.layer = gameObject.layer;
 
+            
+            // ReSharper disable once Unity.PerformanceCriticalCodeInvocation
             objToSpawn.AddComponent<MeshFilter>();
 
             objToSpawn.AddComponent<MeshRenderer>();
