@@ -2,12 +2,13 @@
 <QCARConfig>
     <Tracking>
         <CylinderTarget name="CampaLemon" sideLength="0.100000"/>
-        <ImageTarget name="darkFantasy.Right" size="0.220000 0.044965"/>
-        <ImageTarget name="darkFantasy.Bottom" size="0.150000 0.219921"/>
-        <ImageTarget name="darkFantasy.Front" size="0.150000 0.044949"/>
+        <ImageTarget name="doritos" size="0.180000 0.252776"/>
+        <ImageTarget name="darkFantasy.Back" size="0.150000 0.044949"/>
         <ImageTarget name="darkFantasy.Top" size="0.150000 0.219921"/>
         <ImageTarget name="darkFantasy.Left" size="0.220000 0.044965"/>
-        <ImageTarget name="darkFantasy.Back" size="0.150000 0.044949"/>
+        <ImageTarget name="darkFantasy.Front" size="0.150000 0.044949"/>
+        <ImageTarget name="darkFantasy.Bottom" size="0.150000 0.219921"/>
+        <ImageTarget name="darkFantasy.Right" size="0.220000 0.044965"/>
         <MultiTarget name="darkFantasy">
             <Part name="darkFantasy.Left" translation="-0.07500000298023224 0 0" rotation="AD: 0 1 0 -90"/>
             <Part name="darkFantasy.Right" translation="0.07500000298023224 0 0" rotation="AD: 0 1 0 90"/>
